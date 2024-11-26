@@ -24,11 +24,11 @@ Antes de comenzar, asegúrate de tener instalado lo siguiente en tu sistema:
 
 1. **Clona este repositorio**:
    ```bash git clone https://github.com/Artenlaclase/prueba-endpoint.git cd prueba-endpoint ```
-2. **Instala las dependencias:
+2. **Instala las dependencias**:
     ```npm install```
-3. **Ejecuta el servidor:
+3. **Ejecuta el servidor**:
        ```node index.js```
-4. **El servidor estará corriendo en:
+4. **El servidor estará corriendo en**:
 ``` http://localhost:3000```
 
 ## Uso
@@ -39,6 +39,13 @@ Descripción: Este endpoint recibe un objeto JSON con los siguientes campos requ
 nombre: Nombre del usuario.
 apellido: Apellido del usuario.
 cohorte: Identificador de cohorte.
+
+## Probar con herramientas
+Se recomienda probar el endpoint utilizando herramientas como:
+Thunder Client (integrado en VS Code)
+Postman
+curl
+
 
 ## Contribuciones
 Este repositorio forma parte del aprendizaje en el bootcamp UDD y no está destinado para uso en producción. Sin embargo, se agradecen sugerencias y mejoras.
